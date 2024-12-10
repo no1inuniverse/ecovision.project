@@ -147,7 +147,7 @@ color: var(--bg);
 /* about section */
 .about, 
 .menu, 
-.documentation {
+.aboutus {
     min-height: 100vh;
     align-items: center;
     background-image: url('img/Untitled\ design\ \(1\).png');
@@ -166,7 +166,7 @@ color: var(--bg);
 }
 
 .about h2, 
-.menu h2, .documentation h2 {
+.menu h2, .aboutus h2 {
     text-align: center;
     font-size: 2.6rem;
     margin-bottom: 3rem;
@@ -257,15 +257,15 @@ color: var(--bg);
     margin: 20px;
 }
 
-/* documentation section */
-.documentation .content h2 {
+/* aboutus section */
+.aboutus .content h2 {
     color: #3eff78;
     text-shadow: 1px 1px 3px black;
     line-height: 1;
     font-size: 5em;
 }
 
-.documentation .row {
+.aboutus .row {
     display: contents;
     align-items: center;
     flex-wrap: wrap;
@@ -273,26 +273,26 @@ color: var(--bg);
     justify-content: center;
 }
 
-.documentation .content h2 span {
+.aboutus .content h2 span {
     color: var(--bg);
 }
 
-.documentation .row .menu-card {
+.aboutus .row .menu-card {
     text-align: center ;
 }
 
-.documentation .row .menu-card img {
+.aboutus .row .menu-card img {
     width: 20%;
     margin: 10px;
 }
 
-.documentation .row .menu-card .menu-card-title {
+.aboutus .row .menu-card .menu-card-title {
     margin: 1rem auto 0.5rem;
     color: #3eff78;
     text-shadow: 1px 1px 3px black;
 }
 
-.documentation .row .menu-card .menu-card-title span {
+.aboutus .row .menu-card .menu-card-title span {
     color: var(--bg);
 }
 
